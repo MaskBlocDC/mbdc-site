@@ -1,1 +1,1 @@
-# [Mask Bloc DC Website](https://maskblocdc.github.io/)
+# [Mask Bloc DC Website](https://maskblocdc.vercel.app/)
