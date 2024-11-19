@@ -164,6 +164,9 @@ body {
 .light {background-color: #fff;
   color: #000;
 }
+.light footer{
+	background-color:#585858
+}
 
 mark {
   background-color: transparent;
@@ -3275,7 +3278,7 @@ body.is-menu-visible #menu .close {
 
 #footer {
   padding: 5em 0 6em 0;
-  background-color: #585858;
+  background-color: #000;
 }
 
 #footer > .inner {
