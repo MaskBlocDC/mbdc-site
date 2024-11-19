@@ -11,7 +11,6 @@
 	//Dark mode Toggle:
 	const checkbox = document.getElementById("checkbox");
 	checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
-	checkbox.addEventListener("change", () => {document.footer.classList.toggle("light")});
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
