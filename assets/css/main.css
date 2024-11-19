@@ -128,6 +128,10 @@ body {
 input[type=checkbox]:checked + .label {
   background-image: url("/img/lilmoon.png"); 
 }
+
+#footer h2,a{
+color:#ff;
+}
 ol,
 ul {
   list-style: none;
