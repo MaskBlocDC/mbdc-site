@@ -113,7 +113,14 @@ section {
 body {
   line-height: 1;
 }
-
+#darktoggle {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-direction: row;
+  text-align: center;
+  transition: background 0.2s linear;
+}
 ol,
 ul {
   list-style: none;
@@ -218,9 +225,7 @@ body {
     min-width: 320px;
   }
 }
-#darktoggle{
-  float: "right";
-}
+
 * {
   box-sizing: border-box;
 }
