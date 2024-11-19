@@ -123,10 +123,10 @@ body {
   height: 30px;
   width: 30px;
   display: inline-block;
-  background-image: url("img/lilmoon.png"); 
+  background-image: url("file:///img/lilmoon.png"); 
 }
 input[type=checkbox]:checked + .label {
-  background-image: url("img/lilsun.png"); 
+  background-image: url("file:///img/lilsun.png"); 
 }
 ol,
 ul {
