@@ -3419,7 +3419,6 @@ body.is-menu-visible #menu .close {
   max-width: 68em;
   margin: 0 auto;
   padding: 0 2.5em;
-  overflow: auto;
 }
 
 @media screen and (max-width: 736px) {
