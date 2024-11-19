@@ -128,6 +128,11 @@ body {
 input[type=checkbox]:checked + .label {
   background-image: url("/img/lilmoon.png"); 
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 ol,
 ul {
   list-style: none;
