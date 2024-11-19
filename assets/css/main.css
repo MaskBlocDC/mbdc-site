@@ -129,7 +129,7 @@ input[type=checkbox]:checked + .label {
   background-image: url("/img/lilmoon.png"); 
 }
 
-#footer h2,a{
+#footer h2,i,a{
 color:#fff;
 }
 ol,
