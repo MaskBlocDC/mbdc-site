@@ -164,7 +164,7 @@ body {
 .light {background-color: #fff;
   color: #000;
 }
-#footer .light{
+#footer.light{
 	background-color:#585858
 }
 
