@@ -5,10 +5,12 @@
 */
 
 (function($) {
-
+	
 	var	$window = $(window),
 		$body = $('body');
-
+	//Dark mode Toggle:
+	const checkbox = document.getElementById("checkbox")
+	checkbox.addEventListener("change", () => {document.body.classList.toggle("light")})
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
