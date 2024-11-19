@@ -139,6 +139,48 @@ table {
 
 body {
   -webkit-text-size-adjust: none;
+  color:#fff;
+  background-color: #292c35;
+  transition: background 0.2s linear;
+}
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-label {
+  background-color: #111;
+  width: 50px;
+  height: 26px;
+  border-radius: 50px;
+  position: relative;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fa-moon {color: #f1c40f;}
+
+.fa-sun {color: #f39c12;}
+
+.checkbox-label .ball {
+  background-color: #fff;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .checkbox-label .ball {
+  transform: translateX(24px);
+}
+.light {background-color: #fff;
+  color: #000;
 }
 
 mark {
@@ -176,7 +218,9 @@ body {
     min-width: 320px;
   }
 }
-
+#darktoggle{
+  float: "right";
+}
 html {
   box-sizing: border-box;
 }
@@ -185,10 +229,6 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}
-
-body {
-  background: #ffffff;
 }
 
 body.is-preload *,
