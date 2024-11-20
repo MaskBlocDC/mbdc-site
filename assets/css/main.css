@@ -163,13 +163,17 @@ body {
   transition: background 0.2s linear;
 }
 
+i {
+  color: #ede9e9;
+}
+
 .light {
   background-color: #fff;
   color: #000;
 }
 
 .light i {
-  color: #000;
+  color: ;
 }
 
 .light a {
@@ -225,6 +229,10 @@ body {
   text-decoration: none;
   color: #ede9e9;
   border-bottom: dotted 1px #ede9e9;
+}
+
+#menu ul li {
+  color: #ede9e9;
 }
 
 .light #menu {
