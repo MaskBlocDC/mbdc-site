@@ -187,6 +187,7 @@ body {
 
 .light #footer {
   background-color:#585858;
+  color:#ede9e9;
 }
 
 .light #footer a {
@@ -199,7 +200,7 @@ body {
   border-bottom: dotted 1px #ede9e9;
 }
 
-.light #menu a {
+.light #menu ul li a {
   -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
