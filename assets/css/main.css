@@ -200,7 +200,11 @@ body {
   border-bottom: dotted 1px #ede9e9;
 }
 
-.light #menu ul li a {
+.light #footer ul li {
+  color: #ede9e9;
+}
+
+.light #menu ul li {
   -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
