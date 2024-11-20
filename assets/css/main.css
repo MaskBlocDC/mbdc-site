@@ -214,6 +214,10 @@ ol li {
   background-color: var(--menu-bg-color);
 }
 
+.label {
+  background-image: var(--toggle-image);
+}
+
 /* Dark/Light Mode Support */
 /*Light*/
 :root {
@@ -230,6 +234,7 @@ ol li {
   --footer-link-color: #585858;
   --menu-ul-li-color: #fff;
   --menu-bg-color: #585858;
+  --toggle-image: url("/img/lilmoon.png"); 
 }
 
 /*Dark*/
@@ -247,6 +252,7 @@ ol li {
   --footer-link-color: #ede9e9;
   --menu-ul-li-color: #ede9e9;
   --menu-bg-color: #000;
+  --toggle-image: url("/img/lilsun.png"); 
 }
 
 /*Light*/
@@ -264,6 +270,7 @@ ol li {
   --footer-link-color: #585858;
   --menu-ul-li-color: #fff;
   --menu-bg-color: #585858;
+  --toggle-image: url("/img/lilmoon.png"); 
 }
 /* END TESTING */
 
