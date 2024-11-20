@@ -11,8 +11,8 @@
 		
 	//Dark mode Toggle:
 	const checkbox = document.getElementById("checkbox");
-	//const theme = localStorage.getItem("data-theme");
-	//checkbox.checked = theme == "dark" ? true : false;
+	const theme = localStorage.getItem("data-theme");
+	checkbox.checked = theme == "dark" ? true : false;
 
 	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
 	
