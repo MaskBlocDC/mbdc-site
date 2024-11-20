@@ -15,12 +15,12 @@
 	checkbox.checked = theme == "light" ? true : false;
 
 	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
-	checkbox.addEventListener("change", () => {
+	checkbox.addEventListener("change", function () {
 		if(this.checked){
-			document.body.classList.toggle("light")
+			document.documentElement.setAttribute("data-theme", "light")
 			window.localStorage.setItem("data-theme", "light")
 		} else {
-			document.body.classList.toggle("dark")
+			document.documentElement.setAttribute("data-theme", "dark")
 			window.localStorage.setItem("data-theme", "dark")
 		}
 	});
