@@ -11,11 +11,14 @@
 		
 	//Dark mode Toggle:
 	const checkbox = document.getElementById("checkbox");
-	const theme = localStorage.getItem("data-theme");
-	checkbox.checked = theme == "dark" ? true : false;
+	//const theme = localStorage.getItem("data-theme");
+	//checkbox.checked = theme == "dark" ? true : false;
 
 	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
-	checkbox.addEventListener("change", function () {
+	
+	checkbox.addEventListener("change", () => {document.documentElement.setAttribute("dark")});
+
+	/*checkbox.addEventListener("change", function () {
 		if(this.checked){
 			document.documentElement.setAttribute("data-theme", "dark")
 			localStorage.setItem("data-theme", "dark")
@@ -23,7 +26,7 @@
 			document.documentElement.setAttribute("data-theme", "light")
 			localStorage.setItem("data-theme", "light")
 		}
-	});
+	});*/
 
 	// Breakpoints.
 		breakpoints({

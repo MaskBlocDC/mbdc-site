@@ -129,9 +129,9 @@ input[type=checkbox]:checked + .label {
   background-image: url("/img/lilsun.png"); 
 }
 
-#footer h2,i,a,li{
-  /*color:#ede9e9;*/
-}
+/*#footer h2,i,a,li{
+  color:#ede9e9;
+}*/
 
 ol,
 ul {
@@ -163,7 +163,6 @@ body {
   transition: background 0.2s linear;
 }
 
-/* Dark/Light Mode Testing */
 /* Dark/Light Mode Modifications */
 a {
   color: var(--link-color);
@@ -214,9 +213,9 @@ ol li {
   background-color: var(--menu-bg-color);
 }
 
-.label {
+/*.label {
   background-image: var(--toggle-image);
-}
+}*/
 
 /* Dark/Light Mode Support */
 /*Light*/
@@ -234,7 +233,7 @@ ol li {
   --footer-link-color: #585858;
   --menu-ul-li-color: #fff;
   --menu-bg-color: #585858;
-  --toggle-image: url("/img/lilmoon.png"); 
+  /*--toggle-image: url("/img/lilmoon.png"); */
 }
 
 /*Dark*/
@@ -252,7 +251,7 @@ ol li {
   --footer-link-color: #ede9e9;
   --menu-ul-li-color: #ede9e9;
   --menu-bg-color: #000;
-  --toggle-image: url("/img/lilsun.png"); 
+  /*--toggle-image: url("/img/lilsun.png"); */
 }
 
 /*Light*/
@@ -270,9 +269,8 @@ ol li {
   --footer-link-color: #585858;
   --menu-ul-li-color: #fff;
   --menu-bg-color: #585858;
-  --toggle-image: url("/img/lilmoon.png"); 
+  /*--toggle-image: url("/img/lilmoon.png"); */
 }
-/* END TESTING */
 
 /*i {
   color: #ede9e9;
