@@ -11,17 +11,17 @@
 		
 	//Dark mode Toggle:
 	const checkbox = document.getElementById("checkbox");
-	var theme = window.localStorage.getItem("data-theme");
-	checkbox.checked = theme == "light" ? true : false;
+	const theme = localStorage.getItem("data-theme");
+	checkbox.checked = theme == "dark" ? true : false;
 
 	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
 	checkbox.addEventListener("change", function () {
 		if(this.checked){
-			document.documentElement.setAttribute("data-theme", "light")
-			window.localStorage.setItem("data-theme", "light")
-		} else {
 			document.documentElement.setAttribute("data-theme", "dark")
-			window.localStorage.setItem("data-theme", "dark")
+			localStorage.setItem("data-theme", "dark")
+		} else {
+			document.documentElement.setAttribute("data-theme", "light")
+			localStorage.setItem("data-theme", "light")
 		}
 	});
 

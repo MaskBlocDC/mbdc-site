@@ -123,10 +123,10 @@ body {
   height: 30px;
   width: 30px;
   display: inline-block;
-  background-image: url("/img/lilsun.png"); 
+  background-image: url("/img/lilmoon.png"); 
 }
 input[type=checkbox]:checked + .label {
-  background-image: url("/img/lilmoon.png"); 
+  background-image: url("/img/lilsun.png"); 
 }
 
 #footer h2,i,a,li{
@@ -215,23 +215,24 @@ ol li {
 }
 
 /* Dark/Light Mode Support */
-/*Dark*/
+/*Light*/
 :root {
-  --bg-color: #292c35;
-  --link-color: #ede9e9;
-  --link-bottom-color: #ede9e9;
-  --italic-color: #ede9e9;
-  --font-color: #ede9e9;
-  --ul-li-color: #ede9e9;
-  --ol-li-color: ##ede9e9;
-  --footer-font-color: #ede9e9;
-  --footer-bg-color: #000;
-  --footer-item-colors: #ede9e9;
-  --footer-link-color: #ede9e9;
-  --menu-ul-li-color: #ede9e9;
-  --menu-bg-color: #ede9e9;
+  --bg-color: #fff;
+  --link-color: #000;
+  --link-bottom-color: #000;
+  --italic-color: #000;
+  --font-color: #000;
+  --ul-li-color: #000;
+  --ol-li-color: #000;
+  --footer-font-color: #585858;
+  --footer-bg-color: #f6f6f6;
+  --footer-item-colors: #585858;
+  --footer-link-color: #585858;
+  --menu-ul-li-color: #fff;
+  --menu-bg-color: #585858;
 }
 
+/*Dark*/
 [data-theme="dark"] {
   --bg-color: #292c35;
   --link-color: #ede9e9;
