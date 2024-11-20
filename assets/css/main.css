@@ -189,6 +189,26 @@ body {
   background-color:#585858;
 }
 
+.light #footer a {
+  -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+  color: #ede9e9;
+  border-bottom: dotted 1px #ede9e9;
+}
+
+.light #menu a {
+  -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+  color: #ede9e9;
+  border-bottom: dotted 1px #ede9e9;
+}
+
 .light #menu {
   background-color: #585858;
 }
@@ -292,8 +312,7 @@ a {
   text-decoration: none;
   /*color: #585858;*/
   color: #ede9e9;
-  border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
-  border-bottom-color: #ede9e9;
+  border-bottom: dotted 1px #ede9e9;
 }
 
 a:hover {
