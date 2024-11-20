@@ -132,6 +132,7 @@ input[type=checkbox]:checked + .label {
 #footer h2,i,a,li{
 color:#fff;
 }
+
 ol,
 ul {
   list-style: none;
@@ -167,6 +168,10 @@ body {
   color: #000;
 }
 
+.light i {
+  color: #000;
+}
+
 .light a {
   -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
@@ -185,9 +190,17 @@ body {
   color: #000;
 }
 
+.light ol li {
+  color: #000;
+}
+
 .light #footer {
-  background-color:#585858;
-  color:#ede9e9;
+  background-color:#f6f6f6;
+  color:#585858;
+}
+
+.light #footer h2,i,a,li {
+  color:#585858;
 }
 
 .light #footer a {
@@ -196,12 +209,12 @@ body {
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   transition: border-bottom-color 0.2s ease, color 0.2s ease;
   text-decoration: none;
-  color: #ede9e9;
-  border-bottom: dotted 1px #ede9e9;
+  color: #585858;
+  border-bottom: dotted 1px #585858;
 }
 
 .light #footer ul li {
-  color: #ede9e9;
+  color: #585858;
 }
 
 .light #menu ul li {
