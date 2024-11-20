@@ -15,10 +15,8 @@
 	checkbox.checked = theme == "dark" ? true : false;
 
 	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
-	
-	checkbox.addEventListener("change", () => {document.documentElement.setAttribute("data-theme", "dark")});
 
-	/*checkbox.addEventListener("change", function () {
+	checkbox.addEventListener("change", function () {
 		if(this.checked){
 			document.documentElement.setAttribute("data-theme", "dark")
 			localStorage.setItem("data-theme", "dark")
@@ -26,7 +24,7 @@
 			document.documentElement.setAttribute("data-theme", "light")
 			localStorage.setItem("data-theme", "light")
 		}
-	});*/
+	});
 
 	// Breakpoints.
 		breakpoints({
