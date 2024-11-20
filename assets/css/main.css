@@ -130,7 +130,7 @@ input[type=checkbox]:checked + .label {
 }
 
 #footer h2,i,a,li{
-color:#fff;
+color:#ede9e9;
 }
 
 ol,
@@ -162,6 +162,82 @@ body {
   background-color: #292c35;
   transition: background 0.2s linear;
 }
+
+/* Dark/Light Mode Testing */
+/* Dark/Light Mode Modifications */
+a {
+  color: var(--link-color);
+}
+
+i {
+  color: var(--italic-color);
+}
+
+body {
+  color: var(--font-color);
+  background-color: (--bg-color);
+}
+
+ul li {
+  color: var(--ul-li-color);
+}
+
+ol li {
+  color: var(--ol-li-color);
+}
+
+#footer { 
+  color: var(--footer-font-color);
+  background-color: var(--footer-bg-color);
+}
+
+#footer h2, i, li {
+  color: var(--footer-item-colors);
+}
+
+#footer a {
+  color: var(--footer-link-color);
+}
+
+#menu ul li {
+  color: var(--menu-ul-li-color);
+}
+
+#menu {
+  background-color: var(--menu-bg-color);
+}
+
+/* Dark/Light Mode Support */
+/*Dark*/
+:root {
+  --link-color: #ede9e9;
+  --italic-color: #ede9e9;
+  --font-color: #ede9e9;
+  --ul-li-color: #ede9e9;
+  --ol-li-color: ##ede9e9;
+  --footer-font-color: #ede9e9;
+  --footer-bg-color: #000;
+  --footer-item-colors: #ede9e9;
+  --footer-link-color: #ede9e9;
+  --menu-ul-li-color: #ede9e9;
+  --menu-bg-color: #ede9e9;
+}
+
+/*Light*/
+[data-theme="light"] {
+  --link-color: #000;
+  --italic-color: #000;
+  --font-color: #000;
+  --ul-li-color: #000;
+  --ol-li-color: #000;
+  --footer-font-color: #585858;
+  --footer-bg-color: #f6f6f6;
+  --footer-item-colors: #585858;
+  --footer-link-color: #585858;
+  --menu-ul-li-color: #fff;
+  --menu-bg-color: #fff;
+}
+/* END TESTING */
 
 i {
   color: #ede9e9;

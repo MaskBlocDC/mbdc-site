@@ -8,9 +8,23 @@
 	
 	var	$window = $(window),
 		$body = $('body');
+		
 	//Dark mode Toggle:
 	const checkbox = document.getElementById("checkbox");
-	checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
+	const theme = window.localStorage.getItem("data-theme");
+	checkbox.checked = theme == "light" ? true : false;
+
+	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
+	checkbox.addEventListener("change", () => {
+		if(this.checked){
+			document.body.classList.toggle("light")
+			window.localStorage.setItem("data-theme", "light")
+		} else {
+			document.body.classList.toggle("dark")
+			window.localStorage.setItem("data-theme", "dark")
+		}
+	});
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:   [ '1281px',  '1680px' ],
