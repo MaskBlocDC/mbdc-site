@@ -157,15 +157,32 @@ table {
 
 body {
   -webkit-text-size-adjust: none;
-  color:#fff;
+  color: #fff;
   background-color: #292c35;
   transition: background 0.2s linear;
 }
-.light {background-color: #fff;
+
+.light {
+  background-color: #fff;
   color: #000;
 }
-#footer.light{
-	background-color:#585858
+
+a.light {
+  -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  transition: border-bottom-color 0.2s ease, color 0.2s ease;
+  text-decoration: none;
+  color: #585858;
+  border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+}
+a:hover.light {
+  border-bottom-color: transparent;
+  color: #f2849e !important;
+}
+
+footer.light{
+  background-color:#585858;
 }
 
 mark {
@@ -268,6 +285,7 @@ a {
   /*color: #585858;*/
   color: #ede9e9;
   border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+  border-bottom-color: #ede9e9;
 }
 
 a:hover {
@@ -1995,6 +2013,10 @@ ol {
 
 ol li {
   padding-left: 0.25em;
+}
+
+ul.light {
+  color: #000;
 }
 
 ul {
