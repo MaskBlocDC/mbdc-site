@@ -181,7 +181,7 @@ body {
   color: #f2849e !important;
 }
 
-footer.light{
+#footer .light{
   background-color:#585858;
 }
 
@@ -2015,7 +2015,7 @@ ol li {
   padding-left: 0.25em;
 }
 
-.light ul {
+.light ul li {
   color: #000;
 }
 
