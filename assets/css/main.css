@@ -245,7 +245,7 @@ ol li {
   --footer-item-colors: #ede9e9;
   --footer-link-color: #ede9e9;
   --menu-ul-li-color: #ede9e9;
-  --menu-bg-color: #ede9e9;
+  --menu-bg-color: #000;
 }
 
 /*Light*/
@@ -262,7 +262,7 @@ ol li {
   --footer-item-colors: #585858;
   --footer-link-color: #585858;
   --menu-ul-li-color: #fff;
-  --menu-bg-color: #fff;
+  --menu-bg-color: #585858;
 }
 /* END TESTING */
 
@@ -3453,7 +3453,7 @@ body.is-menu-visible #menu .close {
 
 #footer {
   padding: 5em 0 6em 0;
-  background-color: #000;
+  /*background-color: #000;*/
 }
 
 #footer > .inner {
