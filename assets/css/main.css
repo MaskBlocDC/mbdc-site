@@ -181,8 +181,16 @@ body {
   color: #f2849e !important;
 }
 
-#footer .light{
+.light ul li {
+  color: #000;
+}
+
+.light #footer {
   background-color:#585858;
+}
+
+.light #menu {
+  background-color: #585858;
 }
 
 mark {
@@ -2013,10 +2021,6 @@ ol {
 
 ol li {
   padding-left: 0.25em;
-}
-
-.light ul li {
-  color: #000;
 }
 
 ul {
