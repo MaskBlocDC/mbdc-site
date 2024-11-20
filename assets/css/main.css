@@ -167,7 +167,7 @@ body {
   color: #000;
 }
 
-a.light {
+.light a {
   -moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -webkit-transition: border-bottom-color 0.2s ease, color 0.2s ease;
   -ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
@@ -176,7 +176,7 @@ a.light {
   color: #585858;
   border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 }
-a:hover.light {
+.light a:hover {
   border-bottom-color: transparent;
   color: #f2849e !important;
 }
@@ -2015,7 +2015,7 @@ ol li {
   padding-left: 0.25em;
 }
 
-ul.light {
+.light ul {
   color: #000;
 }
 
