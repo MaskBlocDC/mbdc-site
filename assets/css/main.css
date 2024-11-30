@@ -237,7 +237,7 @@ ol li {
 }
 
 /*Dark*/
-[data-theme="dark"] {
+& [data-theme="dark"] {
   --bg-color: #292c35;
   --link-color: #ede9e9;
   --link-bottom-color: #ede9e9;
@@ -255,7 +255,7 @@ ol li {
 }
 
 /*Light*/
-[data-theme="light"] {
+& [data-theme="light"] {
   --bg-color: #fff;
   --link-color: #000;
   --link-bottom-color: #000;
