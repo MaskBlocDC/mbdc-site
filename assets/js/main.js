@@ -16,8 +16,8 @@
 
 	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
 
-	checkbox.addEventListener("change", function () {
-		if(this.checked){
+	document.addEventListener("DOMContentLoaded", function () {
+		if(checkbox.checked){
 			document.documentElement.setAttribute("data-theme", "dark")
 			localStorage.setItem("data-theme", "dark")
 		} else {
