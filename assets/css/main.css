@@ -271,6 +271,19 @@ ol li {
   --menu-bg-color: #585858;
   /*--toggle-image: url("/img/lilmoon.png"); */
 }
+.theme-toggle {
+  width: 44px;
+  height: 44px;
+  background-color: var(--light--bg-color);
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.theme-toggle:hover {
+  opacity: .5;
+}
 
 /*i {
   color: #ede9e9;
