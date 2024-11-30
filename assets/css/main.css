@@ -3615,7 +3615,7 @@ body.is-menu-visible #menu .close {
 
 .alert {
   padding: 20px;
-  background-color: #f44336;
+  background-color: #AE1409;
   color: white;
   opacity: 1;
   transition: opacity 0.6s;
@@ -3623,13 +3623,13 @@ body.is-menu-visible #menu .close {
 }
 
 .alert.success {
-  background-color: #04aa6d;
+  background-color: #046240;
 }
 .alert.info {
-  background-color: #2196f3;
+  background-color: #08599B;
 }
 .alert.warning {
-  background-color: #ff9800;
+  background-color: #804D00;
 }
 
 .closebtn {
