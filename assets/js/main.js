@@ -9,22 +9,6 @@
 	var	$window = $(window),
 		$body = $('body');
 		
-	//Dark mode Toggle:
-	const checkbox = document.getElementById("checkbox");
-	const theme = localStorage.getItem("data-theme");
-	checkbox.checked = theme == "dark" ? true : false;
-
-	//checkbox.addEventListener("change", () => {document.body.classList.toggle("light")});
-
-	document.addEventListener("DOMContentLoaded", function () {
-		if(checkbox.checked){
-			document.documentElement.setAttribute("data-theme", "dark")
-			localStorage.setItem("data-theme", "dark")
-		} else {
-			document.documentElement.setAttribute("data-theme", "light")
-			localStorage.setItem("data-theme", "light")
-		}
-	});
 
 	// Breakpoints.
 		breakpoints({
